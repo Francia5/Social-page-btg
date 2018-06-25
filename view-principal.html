@@ -99,22 +99,28 @@
     </main>
     <!-- Inicio modal para subir Imagen -->
     <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4>Subir Imagen</h4>
-            <p>Selecciona la imagen que quieres compartir</p>
+        <div class="modal-content row">
+            <div class="row">
+                <h4 class="col s10 offset-s1">Subir Imagen</h4>
+            </div>
+            <div class="row">
+                <small class="col s10 offset-s1">Selecciona la imagen que quieres compartir</small>
+            </div>
             <!-- Pruebas Photo Card -->
-            <div class="container">
-                <div class="row">
-                    <div class="col s6">
-                        <!-- aquí van las imagenes -->
-                        <img id="fotousuario" src="" alt="upload" class="responsive-image">
-                    </div>
-                    <div class="col s4">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <label for="autocomplete-input" class="btn-photo">
-                                    <input type="file" id="card-image" class="hidden" value="" name="fichero" accept="image/x-png, image/gif,image/jpeg">
-                                </label>
+            <div class="row">
+                <div class="container col s12">
+                    <div class="row">
+                        <div class="col s10">
+                            <!-- aquí van las imagenes -->
+                            <img id="fotousuario" src="" alt="upload" class="col s10 offset-s2">
+                        </div>
+                        <div class="col s4">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <label for="autocomplete-input" class="btn-photo">
+                                        <input type="file" id="card-image" class="hidden" value="" name="fichero" accept="image/x-png, image/gif,image/jpeg">
+                                    </label>
+                                </div>
                             </div>
                         </div>
                     </div>
