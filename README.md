@@ -80,4 +80,4 @@ En esa App Camila sigue a un grupo de maquillistas profesionales que la orientan
 
 ## Sketch del flujo de la aplicación
 
-Link: (aqui va el url del Mockup)
+Link: https://xd.adobe.com/view/b62bfbc3-1631-4bda-609d-7aa447aa1d5b-c01a/?fullscreen
