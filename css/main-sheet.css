@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    background-color:#fafafa;
+}
+
+.nav-wrapper{
+    padding: 0.5rem;
+}
+
+#nav-top{
+    height: 6rem;
+}
+.box-nav{
+    margin-top: 1rem;
+}
+
+.btg-logo{
+    height: 4rem;
+    width: 6rem;
+}
+
+/******SLICENAV: PEFIL USUARIO**********/
+#slide-out{
+    background-color: rgb(240, 238, 238);
+}
+.user-view{
+    background-color: rgba(117, 115, 115);
+}
+
+.photo-perfil{
+    border-radius: 50%;
+    height: 6rem;
+    margin: 1.5rem 1rem;
+    position: relative;
+    width: 6rem;
+    z-index: 3;
+}
+
+.box-text-name{
+    font-weight: bold;
+    height: auto;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#menu-about-user{
+    padding: 0 1rem;
+}
+
+.box-text{
+    background-color:rgba(117, 115, 115, 0.3);
+}
+
+/******AGREGAR CARDS**********/
+.card{
+    border-radius: 5%;
+    margin:0 0.5rem;
+}
+
+.card-content{
+    padding: 0.8rem 0 !important;
+}
+
+.express-yourself{
+    border: none;
+    margin-right: -0.5rem;
+    word-wrap: break-word;
+}
+
+.card-action{
+    border-top: none !important;
+    padding: 0.5rem 0 0 0 !important;
+}
+
+.color{
+     color: rgb(218, 59, 112);
+     transition: color ease .3s;
+     cursor: pointer;
+ }
+
+/******FOOTER-NAVEGACION**********/
+.page-footer{
+    padding: 0;
+}
+
+.footer{    
+    border: 1px solid rgba(117, 115, 115, 0.3);
+    bottom:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
