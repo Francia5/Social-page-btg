@@ -1,5 +1,6 @@
 var provider = new firebase.auth.GoogleAuthProvider();
 var fichero;
+var getImage = "";
 // var storageRef = firebase.storage().ref();
 
 
@@ -88,7 +89,9 @@ $("#card-image").change(function () {
                 url: e.target.result
             });
 
-            $("#fotousuario").attr("src", e.target.result);
+            getImage = e.target.result;
+            $("#fotousuario").attr("src", getImage);
+            
 
 
 
