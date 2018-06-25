@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty To Go</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-sheet.css">
+</head>
+
+<body>
+    <nav id="nav-top" class="row">
+        <div class="col s12 nav-wrapper white">
+            <div class="row box-nav">
+                <a href="index.html" class="col s3 m4 l5 offset-s2 offset-m4 offset-l1 brand-logo">
+                    <img class="btg-logo" src="assets/images/logo.png" alt="logo-page">
+                </a>
+                <ul class="col s5 m6 l6 right ">
+                    <div class="row">
+                        <li class="col s9 m6 l3 offset-s2 offset-m4 offset-l1 center">
+                            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                                <i class="material-icons user black-text center large">person</i>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--SLIDEVAR: pefil de usuario-->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="row">
+                    <a class="col s4 box-img" href="#user">
+                        <img class="photo-perfil" src="assets/images/photo-perfil.jpg">
+                    </a>
+                    <div class="col s7 offset-s1">
+                        <a class=" box-text-name" href="#name">
+                            <p class="white-text name">Ammy18</p>
+                        </a>
+                        <a class=" box-text-place" href="#place">
+                            <p class="white-text name">Guadalajara, Jal</p>
+                        </a>
+                        <a class=" box-text-genero" href="#genero">
+                            <p class="white-text name">Female</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <ul id="menu-about-user" class="collapsible">
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">person</i>About me</div>
+                <div class="collapsible-body box-text">
+                    <span>Me gusta el maquillaje Pin Up. Mis colores favoritos son rojo y negro</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">account_balance</i>Academic History</div>
+                <div class="collapsible-body box-text">
+                    <span>Universidad de Guadajalajara</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">business_center</i>Jobs</div>
+                <div class="collapsible-body box-text">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+        </ul>
+    </ul>
+
+    <!--CARD PARA COMENTARIOS-->
+    <main>
+        <div id="main-card" class="row">
+            <div class="col s10 offset-s1">
+                <div class="card row grey lighten-4">
+                    <div class="col s12 card-content">
+                        <textarea id="comment" class="col s8 offset-s1 express-yourself" type="text" placeholder="Express yourself here..." cols="30"
+                            rows="10"></textarea>
+                        <a class="col s1 modal-trigger" href="#modal1">
+                            <i class="small material-icons iconos-card grey-text right" id="new-foto">add_a_photo</i>
+                        </a>
+                        <a id="btn-send" class="col s1" href="#">
+                            <i class="tiny material-icons send-card grey-text">send</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Inicio modal para subir Imagen -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Subir Imagen</h4>
+            <p>Selecciona la imagen que quieres compartir</p>
+            <!-- Pruebas Photo Card -->
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <!-- aquí van las imagenes -->
+                        <img id="fotousuario" src="" alt="upload" class="responsive-image">
+                    </div>
+                    <div class="col s4">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="autocomplete-input" class="btn-photo">
+                                    <input type="file" id="card-image" class="hidden" value="" name="fichero" accept="image/x-png, image/gif,image/jpeg">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin pruebas Photo Card -->
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Compartir imagen</a>
+        </div>
+    </div>
+    <!-- Cierre de modal para subir Imagen -->
+
+    <!--FOOTER FIXED-->
+    <footer class="page-footer bottom footer white">
+        <div class="container">
+            <ul class="box-footer center row">
+                <li>
+                    <a class="col s2 left" href="view-principal.html" alt="Home">
+                        <i class="small li-text material-icons black-text">home</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="col s3 center" href="">
+                        <img class="img-footer li-text" src="assets/images/lipstick-black.png" alt="Make-p">
+                    </a>
+                </li>
+                <li>
+                    <a class="col s2  center" href="">
+                        <img class="img-footer li-text" src="assets/images/brochas.png" alt="Maquillistas">
+                    </a>
+                </li>
+                <li>
+                    <a class="col s3  center" href="" alt="People">
+                        <i class="small li-text material-icons black-text">people</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="col s2 right" href="" alt="settings">
+                        <i class="small li-text material-icons black-text">settings</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAKkOXvwuTrnMSBad4a-opZKj7FZTwvf2w",
+            authDomain: "b-t-g-6fbfe.firebaseapp.com",
+            databaseURL: "https://b-t-g-6fbfe.firebaseio.com",
+            projectId: "b-t-g-6fbfe",
+            storageBucket: "",
+            messagingSenderId: "282751339005"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/main-page.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
