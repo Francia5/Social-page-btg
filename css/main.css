@@ -91,3 +91,9 @@
 .usuario {
     display: none;
 }
+
+
+#photo-user {
+    width: 20%;
+    margin-left: 40%;
+}
